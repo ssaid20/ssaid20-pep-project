@@ -1,4 +1,3 @@
-// AccountDAO.java
 package DAO;
 
 import Model.Account;

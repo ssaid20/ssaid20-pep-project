@@ -110,7 +110,7 @@ public class SocialMediaController {
             ctx.status(400);
         }
     }
-
+    
     // Handler for retrieving all messages by a specific user
     private void getMessagesByUserHandler(Context ctx) {
         int accountId = Integer.parseInt(ctx.pathParam("account_id"));
